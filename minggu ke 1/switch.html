@@ -7,35 +7,37 @@
 
 <body>
     <script>
-
-        var jawab = prompt("Kamu beruntung! Silahakn pilih hadiahmu dengan memasukan angka 1 sampai 5");
+        var jawab = prompt ("kamu beruntung silahkan pilih hadiah mu 1 sampai 2");
         var hadiah = "";
 
-        switch (jawab) {
+        switch(jawab){
             case "1":
-                hadiah = "Tisu";
+                hadiah = "mobil";
                 break;
-            case "2":
-                hadiah = "1 Kotak Kopi";
-                break;
-            case "3":
-                hadiah = "Sticker";
-                break;
-            case "4":
-                hadiah = "Minyak Goreng";
-                break;
-            case "5":
-                hadiah = "Uang Rp 50.000";
-                break;
-            default:
-                document.write("<p>Opps! anda salah pilih</p>");
-        }
+            case "2" :
+                hadiah = "motor";
+                break
+                default :
+                    document.write("<p>Opps! anda salah</p>");
+                    }
+        if(hadiah ==="") {
+            document.write("<p> kamu gagal mendapatkan nya</p>");} else {
+                document.write("<h2> selamat kamau mendapatkan " + hadiah + "</h2>"); }
+               
 
-        if (hadiah === "") {
-            document.write("<p>Kamu gagal mendapat hadiah</p>");
-        } else {
-            document.write("<h2>Selamat kamu mendapatkan " + hadiah + "</h2>");
-        }
+
+
+
+
+
+
+
+
+
+
+
+   
+        
     </script>
 </body>
 
