@@ -7,38 +7,28 @@
 
 <body>
     <script>
-        var jawab = prompt ("kamu beruntung silahkan pilih hadiah mu 1 sampai 2");
-        var hadiah = "";
+     var jawab = prompt("kode nama yg harus d ketik...");
+     var nama  = "";
+      switch(jawab){
+          case "1":
+            nama = "affan";
+            break;
+          case "2": 
+            nama = "ucup";
+            break;
+            case "3":
+            nama = "aris";
+            break;
+            default:
+            document.write("<p>sorry anda salah pilih</p>");
+      }
 
-        switch(jawab){
-            case "1":
-                hadiah = "mobil";
-                break;
-            case "2" :
-                hadiah = "motor";
-                break
-                default :
-                    document.write("<p>Opps! anda salah</p>");
-                    }
-        if(hadiah ==="") {
-            document.write("<p> kamu gagal mendapatkan nya</p>");} else {
-                document.write("<h2> selamat kamau mendapatkan " + hadiah + "</h2>"); }
-               
-
-
-
-
-
-
-
-
-
-
-
-
-   
-        
-    </script>
+          if (nama ===""){
+              document.write("<P>kamu gagal </p>");
+              }else{
+                  document.write("<h2>selamat nama nya adalah " + nama  );
+              }     
+         </script>
 </body>
 
 </html>
