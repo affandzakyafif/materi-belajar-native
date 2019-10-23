@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>Percabangan if/else/if</title>
-</head>
-
-<body>
-    <script>
        var nilai= prompt ("input kan nilai akhir:");
        var grade= "";
            
@@ -18,7 +10,3 @@
         document.write(`<p>grade anda : ${grade} </p>`);
            
            
-        </script>
-</body>
-
-</html>

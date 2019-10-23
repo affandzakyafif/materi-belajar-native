@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>Percabangan Ternary</title>
-</head>
-
-<body>
-    <script>
         var jwb = prompt("apakah indonesia termasuk negara islam terbesar?");
 
         var jawaban = (jwb.toUpperCase()== "IYA") ? "benar":"salah";
 
         document.write(`jawaban anda: <b>${jawaban}</b>`);
-    </script>
-</body>
-
-</html>
+ 

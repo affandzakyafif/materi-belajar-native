@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>Percabangan if/else</title>
-</head>
-
-<body>
-    <script>
       var password = prompt("password:");
 
       if (password == "jengkol"){
@@ -18,7 +10,4 @@
         }
 
 
-    </script>
-</body>
-
-</html>
+   

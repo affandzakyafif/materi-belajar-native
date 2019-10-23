@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>Percabangan switch/case</title>
-</head>
-
-<body>
-    <script>
      var jawab = prompt("kode nama yg harus d ketik...");
      var nama  = "";
       switch(jawab){
@@ -28,7 +20,4 @@
               }else{
                   document.write("<h2>selamat nama nya adalah " + nama  );
               }     
-         </script>
-</body>
-
-</html>
+ 
